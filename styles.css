@@ -1,8 +1,99 @@
 :root {
-  --background-color: #f5f7fa;
-  --accent-color: #28cb8b;
-  --headline-color: #4d4d4d;
-  --text-color: #717171;
-  --primary-light: #ffffff;
-  --icons-color: #103e13;
+  --brand-primary: #28cb8b;
+  --brand-primary-shade: #103e13;
+  --brand-primary-tint: #e8f5e9;
+  --black-color: #263238;
+  --dgrey-color: #4d4d4d;
+  --grey-color: #717171;
+  --lgrey-color: #89939e;
+  --white-color: #ffffff;
+  --silver-color: #f5f7fa;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--dgrey-color);
+}
+
+.customers-section__title {
+  color: var(--brand-primary);
+}
+
+p {
+  color: var(--grey-color);
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: black;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+}
+
+.green-button {
+  background: var(--brand-primary);
+  color: var(--white-color);
+}
+
+.white-button {
+  background: none;
+  color: var(--brand-primary);
+}
+
+.green-arrow {
+  fill: var(--brand-primary);
+}
+
+.white-arrow {
+  fill: var(--white-color);
+}
+
+.green-accent {
+  color: var(--brand-primary);
+}
+
+.manage-community-section__icon {
+  fill: var(--brand-primary-shade);
+  background: var(--brand-primary-tint);
+  border-radius: 10px 5px 18px 5px;
+  padding-top: 3px;
+  padding-right: 18px;
+  padding-bottom: 18px;
+}
+
+.helping-section__icon {
+  fill: var(--brand-primary);
+}
+
+.footer {
+  background: var(--black-color);
+}
+
+.footer__title {
+  color: var(--white-color);
+}
+
+.footer__nav-element {
+  text-decoration: none;
+  color: var(--silver-color);
+}
+
+.footer__icon {
+  text-decoration: none;
+}
+
+.social-icon {
+  fill: var(--white-color);
+  background: var(--dgrey-color);
+  border-radius: 50%;
+  padding: 7.5px;
+}
+
+.copytight {
+  color: var(--silver-color);
 }
