@@ -8,306 +8,336 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header>
-      <img src="./images/header-logo.svg" alt="nexcent logo" />
-      <nav class="navigation">
-        <ul class="navigation__list">
-          <li><a class="navigation__link" href="#">Home</a></li>
-          <li><a class="navigation__link" href="#">Service</a></li>
-          <li><a class="navigation__link" href="#">Feature</a></li>
-          <li><a class="navigation__link" href="#">Product</a></li>
-          <li><a class="navigation__link" href="#">Testimonial</a></li>
-          <li><a class="navigation__link" href="#">FAQ</a></li>
+    <div class="container">
+      <header class="header">
+        <img
+          class="header__logo"
+          src="./images/header-logo.svg"
+          alt="nexcent logo"
+        />
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li><a class="navigation__link" href="#">Home</a></li>
+            <li><a class="navigation__link" href="#">Service</a></li>
+            <li><a class="navigation__link" href="#">Feature</a></li>
+            <li><a class="navigation__link" href="#">Product</a></li>
+            <li><a class="navigation__link" href="#">Testimonial</a></li>
+            <li><a class="navigation__link" href="#">FAQ</a></li>
+          </ul>
+        </nav>
+        <button class="button header__login-button white-button">Login</button>
+        <button class="button header__singing-button green-button">
+          Sign up
+        </button>
+      </header>
+    </div>
+
+    <div class="container">
+      <section class="section hero-section">
+        <h1 class="section-title hero-section__title">
+          Lessons and insights <span class="green-accent">from 8 years</span>
+        </h1>
+        <p>
+          Where to grow your business as a photographer: site or social media?
+        </p>
+        <button class="button green-button">Register</button>
+        <img
+          src="./images/hero-section-illustration.png"
+          alt="man wiht a laptop"
+        />
+      </section>
+    </div>
+
+    <div class="container">
+      <section class="section clients-section">
+        <h2 class="section-title clients-section__title">Our Clients</h2>
+        <p>We have been working with some Fortune 500+ clients</p>
+        <img src="./images/client-logo-1.svg" alt="client-logo-1" />
+        <img src="./images/client-logo-2.svg" alt="client-logo-2" />
+        <img src="./images/client-logo-3-7.svg" alt="client-logo-3" />
+        <img src="./images/client-logo-4.svg" alt="client-logo-4" />
+        <img src="./images/client-logo-5.svg" alt="client-logo-5" />
+        <img src="./images/client-logo-6.svg" alt="client-logo-6" />
+        <img src="./images/client-logo-3-7.svg" alt="client-logo-7" />
+      </section>
+    </div>
+
+    <div class="container">
+      <section class="section manage-community-section">
+        <h2 class="section-title manage-community-section__title">
+          Manage your entire community in a single system
+        </h2>
+        <p>Who is Nextcent suitable for?</p>
+        <ul>
+          <li>
+            <svg class="manage-community-section__icon" width="28" height="28">
+              <use href="./sprite.svg#icon-membership-organisations"></use>
+            </svg>
+            <h3>Membership Organisations</h3>
+            <p>
+              Simplify member registration, manage subscriptions, and keep
+              everyone connected through one intuitive platform
+            </p>
+          </li>
+          <li>
+            <svg class="manage-community-section__icon" width="28" height="28">
+              <use href="./sprite.svg#icon-national-associations"></use>
+            </svg>
+            <h3>National Associations</h3>
+            <p>
+              Coordinate regional branches, organize events, and share important
+              updates with members across the country
+            </p>
+          </li>
+          <li>
+            <svg class="manage-community-section__icon" width="28" height="28">
+              <use href="./sprite.svg#icon-clubs-and-groups"></use>
+            </svg>
+            <h3>Clubs And Groups</h3>
+            <p>
+              Manage activities, communicate with members, and grow your
+              community with powerful digital tools
+            </p>
+          </li>
         </ul>
-      </nav>
-      <button class="button white-button">Login</button>
-      <button class="button green-button">Sign up</button>
-    </header>
+      </section>
+    </div>
 
-    <section class="section hero-section">
-      <h1 class="section-title hero-section__title">
-        Lessons and insights <span class="green-accent">from 8 years</span>
-      </h1>
-      <p>
-        Where to grow your business as a photographer: site or social media?
-      </p>
-      <button class="button green-button">Register</button>
-      <img
-        src="./images/hero-section-illustration.png"
-        alt="man wiht a laptop"
-      />
-    </section>
+    <div class="container">
+      <section class="section unseen-section">
+        <h2 class="section-title unseen-section__title">
+          The unseen of spending three years at Pixelgrade
+        </h2>
+        <p>
+          Behind every successful community is an efficient management system.
+          Our platform helps organizations save time, automate daily tasks, and
+          focus on what truly matters—building meaningful relationships with
+          their members
+        </p>
+        <button class="button green-button">Learn More</button>
+        <img
+          src="./images/unseen-section-illustration.png"
+          alt="woman is guessing the password"
+        />
+      </section>
+    </div>
 
-    <section class="section clients-section">
-      <h2 class="section-title clients-section__title">Our Clients</h2>
-      <p>We have been working with some Fortune 500+ clients</p>
-      <img src="./images/client-logo-1.svg" alt="client-logo-1" />
-      <img src="./images/client-logo-2.svg" alt="client-logo-2" />
-      <img src="./images/client-logo-3-7.svg" alt="client-logo-3" />
-      <img src="./images/client-logo-4.svg" alt="client-logo-4" />
-      <img src="./images/client-logo-5.svg" alt="client-logo-5" />
-      <img src="./images/client-logo-6.svg" alt="client-logo-6" />
-      <img src="./images/client-logo-3-7.svg" alt="client-logo-7" />
-    </section>
+    <div class="container">
+      <section class="section helping-section">
+        <h2 class="section-title helping-section__title">
+          Helping a local
+          <span class="green-accent">business reinvent itself</span>
+        </h2>
+        <p>We reached here with our hard work and dedication</p>
+        <ul>
+          <li>
+            <svg class="helping-section__icon" width="48" height="48">
+              <use href="./sprite.svg#icon-members"></use>
+            </svg>
+            <p>2,245,341</p>
+            <h3>Members</h3>
+          </li>
+          <li>
+            <svg class="helping-section__icon" width="48" height="48">
+              <use href="./sprite.svg#icon-event-bookings"></use>
+            </svg>
+            <p>828,867</p>
+            <h3>Event Bookings</h3>
+          </li>
+          <li>
+            <svg class="helping-section__icon" width="48" height="48">
+              <use href="./sprite.svg#icon-clubs-and-groups"></use>
+            </svg>
+            <p>46,328</p>
+            <h3>Clubs</h3>
+          </li>
+          <li>
+            <svg class="helping-section__icon" width="48" height="48">
+              <use href="./sprite.svg#icon-payments"></use>
+            </svg>
+            <p>1,926,436</p>
+            <h3>Payments</h3>
+          </li>
+        </ul>
+      </section>
+    </div>
 
-    <section class="section manage-community-section">
-      <h2 class="section-title manage-community-section__title">
-        Manage your entire community in a single system
-      </h2>
-      <p>Who is Nextcent suitable for?</p>
-      <ul>
-        <li>
-          <svg class="manage-community-section__icon" width="28" height="28">
-            <use href="./sprite.svg#icon-membership-organisations"></use>
+    <div class="container">
+      <section class="section footer-design-section">
+        <h2 class="section-title footer-design-section__title">
+          How to design your site footer like we did
+        </h2>
+        <p>
+          A well-designed footer helps visitors quickly find important
+          information, navigate your website with ease, and stay connected
+          through useful links and contact details.
+        </p>
+        <button class="button green-button">Learn More</button>
+        <img
+          src="./images/footer-design-section-illustration.png"
+          alt="woman is loging in"
+        />
+      </section>
+    </div>
+
+    <div class="container">
+      <section class="section customers-section">
+        <img src="./images/customers-section-picture.png" alt="tesla mark" />
+        <p>
+          Creating a great online experience is about more than beautiful
+          design. It's about making information accessible, navigation
+          intuitive, and every interaction meaningful. Whether you're managing a
+          local club or a national organization, our platform provides the tools
+          you need to engage members and grow with confidence.
+        </p>
+        <h2 class="section-title customers-section__title">Tim Smith</h2>
+        <p>British Dragon Boat Racing Association</p>
+
+        <img src="./images/client-logo-1.svg" alt="client-logo-1" />
+        <img src="./images/client-logo-2.svg" alt="client-logo-2" />
+        <img src="./images/client-logo-3-7.svg" alt="client-logo-3-7" />
+        <img src="./images/client-logo-4.svg" alt="client-logo-4" />
+        <img src="./images/client-logo-5.svg" alt="client-logo-5" />
+        <img src="./images/client-logo-6.svg" alt="client-logo-6" />
+
+        <button class="button white-button">
+          Meet all customers
+          <svg class="green-arrow arrow-icon" width="24" height="24">
+            <use href="./sprite.svg#icon-arrow"></use>
           </svg>
-          <h3>Membership Organisations</h3>
-          <p>
-            Simplify member registration, manage subscriptions, and keep
-            everyone connected through one intuitive platform
-          </p>
-        </li>
-        <li>
-          <svg class="manage-community-section__icon" width="28" height="28">
-            <use href="./sprite.svg#icon-national-associations"></use>
-          </svg>
-          <h3>National Associations</h3>
-          <p>
-            Coordinate regional branches, organize events, and share important
-            updates with members across the country
-          </p>
-        </li>
-        <li>
-          <svg class="manage-community-section__icon" width="28" height="28">
-            <use href="./sprite.svg#icon-clubs-and-groups"></use>
-          </svg>
-          <h3>Clubs And Groups</h3>
-          <p>
-            Manage activities, communicate with members, and grow your community
-            with powerful digital tools
-          </p>
-        </li>
-      </ul>
-    </section>
+        </button>
+      </section>
+    </div>
 
-    <section class="section unseen-section">
-      <h2 class="section-title unseen-section__title">
-        The unseen of spending three years at Pixelgrade
-      </h2>
-      <p>
-        Behind every successful community is an efficient management system. Our
-        platform helps organizations save time, automate daily tasks, and focus
-        on what truly matters—building meaningful relationships with their
-        members
-      </p>
-      <button class="button green-button">Learn More</button>
-      <img
-        src="./images/unseen-section-illustration.png"
-        alt="woman is guessing the password"
-      />
-    </section>
-
-    <section class="section helping-section">
-      <h2 class="section-title helping-section__title">
-        Helping a local
-        <span class="green-accent">business reinvent itself</span>
-      </h2>
-      <p>We reached here with our hard work and dedication</p>
-      <ul>
-        <li>
-          <svg class="helping-section__icon" width="48" height="48">
-            <use href="./sprite.svg#icon-members"></use>
-          </svg>
-          <p>2,245,341</p>
-          <h3>Members</h3>
-        </li>
-        <li>
-          <svg class="helping-section__icon" width="48" height="48">
-            <use href="./sprite.svg#icon-event-bookings"></use>
-          </svg>
-          <p>828,867</p>
-          <h3>Event Bookings</h3>
-        </li>
-        <li>
-          <svg class="helping-section__icon" width="48" height="48">
-            <use href="./sprite.svg#icon-clubs-and-groups"></use>
-          </svg>
-          <p>46,328</p>
-          <h3>Clubs</h3>
-        </li>
-        <li>
-          <svg class="helping-section__icon" width="48" height="48">
-            <use href="./sprite.svg#icon-payments"></use>
-          </svg>
-          <p>1,926,436</p>
-          <h3>Payments</h3>
-        </li>
-      </ul>
-    </section>
-
-    <section class="section footer-design-section">
-      <h2 class="section-title footer-design-section__title">
-        How to design your site footer like we did
-      </h2>
-      <p>
-        A well-designed footer helps visitors quickly find important
-        information, navigate your website with ease, and stay connected through
-        useful links and contact details.
-      </p>
-      <button class="button green-button">Learn More</button>
-      <img
-        src="./images/footer-design-section-illustration.png"
-        alt="woman is loging in"
-      />
-    </section>
-
-    <section class="section customers-section">
-      <img src="./images/customers-section-picture.png" alt="tesla mark" />
-      <p>
-        Creating a great online experience is about more than beautiful design.
-        It's about making information accessible, navigation intuitive, and
-        every interaction meaningful. Whether you're managing a local club or a
-        national organization, our platform provides the tools you need to
-        engage members and grow with confidence.
-      </p>
-      <h2 class="section-title customers-section__title">Tim Smith</h2>
-      <p>British Dragon Boat Racing Association</p>
-
-      <img src="./images/client-logo-1.svg" alt="client-logo-1" />
-      <img src="./images/client-logo-2.svg" alt="client-logo-2" />
-      <img src="./images/client-logo-3-7.svg" alt="client-logo-3-7" />
-      <img src="./images/client-logo-4.svg" alt="client-logo-4" />
-      <img src="./images/client-logo-5.svg" alt="client-logo-5" />
-      <img src="./images/client-logo-6.svg" alt="client-logo-6" />
-
-      <button class="button white-button">
-        Meet all customers
-        <svg class="green-arrow arrow-icon" width="24" height="24">
-          <use href="./sprite.svg#icon-arrow"></use>
-        </svg>
-      </button>
-    </section>
-
-    <section class="section caring-section">
-      <h2 class="section-title caring-section__title">
-        Caring is the new marketing
-      </h2>
-      <p>
-        The Nexcent blog is the best place to read about the latest membership
-        insights, trends and more. See who's joining the community, read about
-        how our community are increasing their membership income and lot's
-        more.​
-      </p>
-      <ul>
-        <li>
-          <article>
-            <img src="./images/1card-picture.png" alt="" />
-            <p>Creating Streamlined Safeguarding Processes with OneRen</p>
+    <div class="container">
+      <section class="section caring-section">
+        <h2 class="section-title caring-section__title">
+          Caring is the new marketing
+        </h2>
+        <p>
+          The Nexcent blog is the best place to read about the latest membership
+          insights, trends and more. See who's joining the community, read about
+          how our community are increasing their membership income and lot's
+          more.​
+        </p>
+        <ul>
+          <li>
+            <article>
+              <img src="./images/1card-picture.png" alt="" />
+              <p>Creating Streamlined Safeguarding Processes with OneRen</p>
+              <button class="button white-button">
+                Readmore
+                <svg class="green-arrow arrow-icon" width="24" height="24">
+                  <use href="./sprite.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </article>
+          </li>
+          <li>
+            <img src="./images/2card-picture.png" alt="" />
+            <p>
+              What are your safeguarding responsibilities and how can you manage
+              them?
+            </p>
             <button class="button white-button">
               Readmore
               <svg class="green-arrow arrow-icon" width="24" height="24">
                 <use href="./sprite.svg#icon-arrow"></use>
               </svg>
             </button>
-          </article>
-        </li>
-        <li>
-          <img src="./images/2card-picture.png" alt="" />
-          <p>
-            What are your safeguarding responsibilities and how can you manage
-            them?
-          </p>
-          <button class="button white-button">
-            Readmore
-            <svg class="green-arrow arrow-icon" width="24" height="24">
-              <use href="./sprite.svg#icon-arrow"></use>
-            </svg>
-          </button>
-        </li>
-        <li>
-          <img src="./images/3card-picture.png" alt="" />
-          <p>Revamping the Membership Model with Triathlon Australia</p>
-          <button class="button white-button">
-            Readmore
-            <svg class="green-arrow arrow-icon" width="24" height="24">
-              <use href="./sprite.svg#icon-arrow"></use>
-            </svg>
-          </button>
-        </li>
-      </ul>
-    </section>
+          </li>
+          <li>
+            <img src="./images/3card-picture.png" alt="" />
+            <p>Revamping the Membership Model with Triathlon Australia</p>
+            <button class="button white-button">
+              Readmore
+              <svg class="green-arrow arrow-icon" width="24" height="24">
+                <use href="./sprite.svg#icon-arrow"></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </section>
+    </div>
 
-    <section class="section slogan-section">
-      <h2 class="section-title slogan-section__title">
-        Start building stronger communities today
-      </h2>
-      <button class="button green-button">
-        Get a Demo
-        <svg class="white-arrow arrow-icon" width="24" height="24">
-          <use href="./sprite.svg#icon-arrow"></use>
-        </svg>
-      </button>
-    </section>
-
-    <footer class="footer">
-      <img src="./images/footer-logo.svg" alt="nexcent logo" />
-      <p class="copytight">Copyright © 2020 Nexcent ltd. All rights reserved</p>
-
-      <a class="footer__icon" href="#">
-        <svg class="social-icon instagram-icon" width="24" height="24">
-          <use href="./sprite.svg#icon-instagram"></use>
-        </svg>
-      </a>
-
-      <a class="footer__icon" href="#">
-        <svg class="social-icon basketball-icon" width="24" height="24">
-          <use href="./sprite.svg#icon-basketball"></use>
-        </svg>
-      </a>
-
-      <a class="footer__icon" href="#">
-        <svg class="social-icon twitter-icon" width="24" height="24">
-          <use href="./sprite.svg#icon-twitter"></use>
-        </svg>
-      </a>
-
-      <a class="footer__icon" href="#">
-        <svg class="social-icon youtube-icon" width="24" height="24">
-          <use href="./sprite.svg#icon-youtube"></use>
-        </svg>
-      </a>
-
-      <h3 class="footer__title">Company</h3>
-      <ul class="footer__nav company-nav">
-        <li><a class="footer__nav-element" href="#">About us</a></li>
-        <li><a class="footer__nav-element" href="#">Blog</a></li>
-        <li><a class="footer__nav-element" href="#">Contact us</a></li>
-        <li><a class="footer__nav-element" href="#">Pricing</a></li>
-        <li><a class="footer__nav-element" href="#">Testimonials</a></li>
-      </ul>
-
-      <h3 class="footer__title">Support</h3>
-      <ul class="footer__nav support-nav">
-        <li><a class="footer__nav-element" href="#">Help center</a></li>
-        <li><a class="footer__nav-element" href="#">Terms of service</a></li>
-        <li><a class="footer__nav-element" href="#">Legal</a></li>
-        <li><a class="footer__nav-element" href="#">Privacy policy</a></li>
-        <li><a class="footer__nav-element" href="#">Status</a></li>
-      </ul>
-
-      <h3 class="footer__title">Stay up to date</h3>
-      <form class="footer-form">
-        <input
-          class="footer-form__input"
-          type="email"
-          placeholder="Your email address"
-        />
-
-        <button class="footer" type="submit" aria-label="Subscribe">
-          <svg class="send-email-icon" width="18" height="18">
-            <use href="./sprite.svg#icon-send-email"></use>
+    <div class="container">
+      <section class="section slogan-section">
+        <h2 class="section-title slogan-section__title">
+          Start building stronger communities today
+        </h2>
+        <button class="button green-button">
+          Get a Demo
+          <svg class="white-arrow arrow-icon" width="24" height="24">
+            <use href="./sprite.svg#icon-arrow"></use>
           </svg>
         </button>
-      </form>
-    </footer>
+      </section>
+    </div>
+
+    <div class="container">
+      <footer class="footer">
+        <img src="./images/footer-logo.svg" alt="nexcent logo" />
+        <p class="copytight">
+          Copyright © 2020 Nexcent ltd. All rights reserved
+        </p>
+
+        <a class="footer__icon" href="#">
+          <svg class="social-icon instagram-icon" width="24" height="24">
+            <use href="./sprite.svg#icon-instagram"></use>
+          </svg>
+        </a>
+
+        <a class="footer__icon" href="#">
+          <svg class="social-icon basketball-icon" width="24" height="24">
+            <use href="./sprite.svg#icon-basketball"></use>
+          </svg>
+        </a>
+
+        <a class="footer__icon" href="#">
+          <svg class="social-icon twitter-icon" width="24" height="24">
+            <use href="./sprite.svg#icon-twitter"></use>
+          </svg>
+        </a>
+
+        <a class="footer__icon" href="#">
+          <svg class="social-icon youtube-icon" width="24" height="24">
+            <use href="./sprite.svg#icon-youtube"></use>
+          </svg>
+        </a>
+
+        <h3 class="footer__title">Company</h3>
+        <ul class="footer__nav company-nav">
+          <li><a class="footer__nav-element" href="#">About us</a></li>
+          <li><a class="footer__nav-element" href="#">Blog</a></li>
+          <li><a class="footer__nav-element" href="#">Contact us</a></li>
+          <li><a class="footer__nav-element" href="#">Pricing</a></li>
+          <li><a class="footer__nav-element" href="#">Testimonials</a></li>
+        </ul>
+
+        <h3 class="footer__title">Support</h3>
+        <ul class="footer__nav support-nav">
+          <li><a class="footer__nav-element" href="#">Help center</a></li>
+          <li><a class="footer__nav-element" href="#">Terms of service</a></li>
+          <li><a class="footer__nav-element" href="#">Legal</a></li>
+          <li><a class="footer__nav-element" href="#">Privacy policy</a></li>
+          <li><a class="footer__nav-element" href="#">Status</a></li>
+        </ul>
+
+        <h3 class="footer__title">Stay up to date</h3>
+        <form class="footer-form">
+          <input
+            class="footer-form__input"
+            type="email"
+            placeholder="Your email address"
+          />
+
+          <button class="footer" type="submit" aria-label="Subscribe">
+            <svg class="send-email-icon" width="18" height="18">
+              <use href="./sprite.svg#icon-send-email"></use>
+            </svg>
+          </button>
+        </form>
+      </footer>
+    </div>
   </body>
 </html>

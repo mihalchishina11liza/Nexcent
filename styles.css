@@ -16,17 +16,52 @@ h3 {
   color: var(--dgrey-color);
 }
 
-.customers-section__title {
-  color: var(--brand-primary);
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 p {
   color: var(--grey-color);
 }
 
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.customers-section__title {
+  color: var(--brand-primary);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  margin-right: 165px;
+}
+
+.header__login-button {
+  margin-left: 144px;
+  margin-right: 14px;
+}
+
+.header__singin-button {
+  width: 90px 40px;
+}
+
+.navigation__list {
+  display: flex;
+}
+
 .navigation__link {
   text-decoration: none;
   color: black;
+  margin-right: 50px;
 }
 
 .button {
