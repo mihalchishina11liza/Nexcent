@@ -149,17 +149,56 @@ p {
   gap: 140px;
 }
 
-.customers-section__title {
-  color: var(--brand-primary);
+.manage-community-section {
+  padding-bottom: 66px;
 }
 
-.manage-community-section__icon {
+.manage-community-section__title {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 8px;
+  max-width: 520px;
+}
+
+.manage-community-section__text {
+  font-size: 16px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.manage-community-section__list {
+  display: flex;
+  gap: 126px;
+}
+
+.manage-community-section__item {
+  text-align: center;
+  max-width: 300px;
+}
+
+.manage-community-section__item__title {
+  font-size: 28px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.manage-community-section__item__text {
+  font-size: 14px;
+}
+
+.manage-community-section__item__icon {
   fill: var(--brand-primary-shade);
   background: var(--brand-primary-tint);
   border-radius: 10px 5px 18px 5px;
   padding-top: 3px;
   padding-right: 18px;
   padding-bottom: 18px;
+  margin-bottom: 8px;
+}
+
+.customers-section__title {
+  color: var(--brand-primary);
 }
 
 .helping-section__icon {
