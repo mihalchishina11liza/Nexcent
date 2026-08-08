@@ -287,8 +287,44 @@ p {
   margin-bottom: 32px;
 }
 
+.customers-section {
+  padding: 32px 0;
+}
+
+.customers-section__container {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.customers-section__content {
+  max-width: 750px;
+}
+
+.customers-section__text {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
 .customers-section__title {
   color: var(--brand-primary);
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.customers-section__subheading {
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.customers-section__info {
+  display: flex;
+  gap: 32px;
+}
+
+.customers-section__logos {
+  display: flex;
+  gap: 40px;
 }
 
 .footer {
