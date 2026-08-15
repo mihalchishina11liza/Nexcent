@@ -363,6 +363,24 @@ p {
   text-align: center;
 }
 
+.slogan-section {
+  padding: 32px 0;
+}
+
+.slogan-section__container {
+  max-width: 888px;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.slogan-section__title {
+  font-size: 64px;
+  padding-bottom: 32px;
+  text-align: center;
+  max-width: 880px;
+}
+
 .footer {
   background: var(--black-color);
 }
