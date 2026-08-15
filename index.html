@@ -340,7 +340,7 @@
 
     <footer class="footer">
       <div class="footer__container">
-        <div>
+        <div class="social-block">
           <img
             class="footer__logo"
             src="./images/footer-logo.svg"
@@ -378,42 +378,62 @@
         </div>
 
         <div class="footer__content">
-          <div>
-            <h3 class="footer__title">Company</h3>
-            <ul class="footer__nav company-nav">
-              <li><a class="footer__nav-element" href="#">About us</a></li>
-              <li><a class="footer__nav-element" href="#">Blog</a></li>
-              <li><a class="footer__nav-element" href="#">Contact us</a></li>
-              <li><a class="footer__nav-element" href="#">Pricing</a></li>
-              <li><a class="footer__nav-element" href="#">Testimonials</a></li>
+          <div class="info-block">
+            <h3 class="info-block__title">Company</h3>
+            <ul class="info-block__nav">
+              <li class="info-block__element">
+                <a class="info-block__link" href="#">About us</a>
+              </li>
+              <li class="info-block__element">
+                <a class="info-block__link" href="#">Blog</a>
+              </li>
+              <li class="info-block__element">
+                <a class="info-block__link" href="#">Contact us</a>
+              </li>
+              <li class="info-block__element">
+                <a class="info-block__link" href="#">Pricing</a>
+              </li>
+              <li class="info-block__element">
+                <a class="info-block__link" href="#">Testimonials</a>
+              </li>
             </ul>
           </div>
 
-          <div>
-            <h3 class="footer__title">Support</h3>
-            <ul class="footer__nav support-nav">
-              <li><a class="footer__nav-element" href="#">Help center</a></li>
-              <li>
-                <a class="footer__nav-element" href="#">Terms of service</a>
+          <div class="info-block">
+            <h3 class="info-block__title">Support</h3>
+            <ul class="info-block__nav">
+              <li class="info-block__element">
+                <a class="info-block__link" href="#">Help center</a>
               </li>
-              <li><a class="footer__nav-element" href="#">Legal</a></li>
-              <li>
-                <a class="footer__nav-element" href="#">Privacy policy</a>
+              <li class="info-block__element">
+                <a class="info-block__link" href="#">Terms of service</a>
               </li>
-              <li><a class="footer__nav-element" href="#">Status</a></li>
+              <li class="info-block__element">
+                <a class="info-block__link" href="#">Legal</a>
+              </li>
+              <li class="info-block__element">
+                <a class="info-block__link" href="#">Privacy policy</a>
+              </li>
+              <li class="info-block__element">
+                <a class="info-block__link" href="#">Status</a>
+              </li>
             </ul>
           </div>
 
-          <div>
-            <h3 class="footer__title">Stay up to date</h3>
-            <form class="footer-form">
+          <div class="info-block">
+            <h3 class="info-block__title">Stay up to date</h3>
+            <form class="info-block-form">
               <input
-                class="footer-form__input"
+                class="info-block-form__input"
                 type="email"
                 placeholder="Your email address"
               />
 
-              <button class="footer" type="submit" aria-label="Subscribe">
+              <button
+                class="info-block__button"
+                type="submit"
+                aria-label="Subscribe"
+              >
                 <svg class="send-email-icon" width="18" height="18">
                   <use href="./sprite.svg#icon-send-email"></use>
                 </svg>
