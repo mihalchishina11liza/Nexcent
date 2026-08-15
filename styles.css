@@ -18,6 +18,7 @@
 
 body {
   background: var(--silver-color);
+  font-family: 'Inter', sans-serif;
 }
 
 h1,
@@ -325,6 +326,41 @@ p {
 .customers-section__logos {
   display: flex;
   gap: 40px;
+}
+
+.caring-section {
+  padding-top: 48px;
+  padding-bottom: 92px;
+}
+
+.caring-section__title {
+  font-size: 36px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.caring-section__text {
+  font-size: 16px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 628px;
+  margin-bottom: 48px;
+}
+
+.caring-list {
+  display: flex;
+  gap: 24px;
+}
+
+.caring-list__item {
+  max-width: 368px;
+}
+
+.caring-list__title {
+  color: var(--grey-color);
+  font-size: 20px;
+  margin-bottom: 16px;
+  text-align: center;
 }
 
 .footer {
