@@ -51,6 +51,7 @@ p {
   padding: 14px 32px;
   border: none;
   border-radius: 6px;
+  align-items: center;
 }
 
 .green-button {
@@ -89,6 +90,10 @@ p {
   display: flex;
   gap: 14px;
   margin-left: 140px;
+}
+
+.header__button {
+  padding: 10px 20px;
 }
 
 .header__logo {
